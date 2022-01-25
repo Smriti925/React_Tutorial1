@@ -9,8 +9,7 @@ function Todo(props)
         setModalIsOpen(true);
     }
     function closeModalHandler()
-    {
-        setModalIsOpen(false);
+    {setModalIsOpen(false);
     }
     return (
         <div className="card">
